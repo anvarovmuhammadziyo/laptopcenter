@@ -1,0 +1,74 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 2em;
+}
+
+#laptops {
+    display: flex;
+    flex-wrap: wrap; /* 3 tadan keyin o'zini pastga tushirish uchun */
+    justify-content: space-between;
+}
+
+.laptop {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 5px;
+    width: 30%; /* 3 ta laptopni yonma-yon joylashishi uchun */
+    margin-bottom: 20px; /* Qatorlar orasida bo'sh joy */
+    text-align: center;
+}
+
+.laptop h3 {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #728497;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 222px;
+    max-height: 222px;
+}
